@@ -67,7 +67,14 @@ void update_axes(Joystick* joy)
     case AXIS_ACCEL_Z:
         break;
     // As of yet I do not know what the AXIS_DPAD_LEFT value should be - or if it even exists
-    case NA4: case NA5: case NA6: case NA7: case NA20: case NA21: case NA22: case AXIS_DPAD_LEFT:
+    case NA4:
+    case NA5:
+    case NA6:
+    case NA7:
+    case NA20:
+    case NA21:
+    case NA22:
+    case AXIS_DPAD_LEFT:
         std::cout << "\tDPAD LEFT" << std::endl;
     case AXIS_LEFT_STICK_HORIZONTAL:
     case AXIS_LEFT_STICK_VERTICAL:
