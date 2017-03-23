@@ -4,7 +4,7 @@
 #define EVENT_AXIS           0x02    // Axis state update
 #define EVENT_INIT           0x80    // Non-input event, to be ignored
 
-#define MAX_BUTTON_COUNT       16
+#define MAX_BUTTON_COUNT       18
 #define MAX_AXIS_COUNT         27    // 8 for 360, 27 for PS3
 
 #define BUTTON_DOWN 1
