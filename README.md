@@ -101,3 +101,7 @@ An example of how to use `Joystick` is provided in `test.cpp` - compiled with th
 Further note that you will run into issues if you pass a `Joystick` object around instead of passing a `Joystick*`.
 
 Both `ps3_mappings.h` and `360_mappings.h` are included. Only the PS3 one has been tested. I've been told it works best for interfacing with a joystick on Linux.
+
+---
+
+There is now a Python version of of `Joystick` that works almost exactly the same. See `python/test.py` for the top level code and `python/controller.py` for project/implementation specific code.
