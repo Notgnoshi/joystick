@@ -100,9 +100,9 @@ class JoystickController(Joystick):
         self.rotation_vector = r
         # self.difference_vector = (d[0] - r[0], d[1] - r[1])
 
-        print('direction:  ({0[0]:.2f} {0[1]:.2f})'.format(self.direction_vector))
-        print('rotation:   ({0[0]:.2f} {0[1]:.2f})'.format(self.rotation_vector))
-        # print('difference: ({0[0]:.2f} {0[1]:.2f})\n'.format(self.difference_vector))
+        print('direction:  ({0[0]:.2f}, {0[1]:.2f})'.format(self.direction_vector))
+        print('rotation:   ({0[0]:.2f}, {0[1]:.2f})'.format(self.rotation_vector))
+        # print('difference: ({0[0]:.2f}, {0[1]:.2f})\n'.format(self.difference_vector))
 
     def __to_polar(self, x, y):
         # since atan2 knows both y and x, it yields the angle in the proper quadrant
