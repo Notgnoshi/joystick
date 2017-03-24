@@ -4,6 +4,8 @@ from time import sleep
 
 
 def main():
+
+    # TODO: Think about some kind of async controller.Run() that performs this stuff in the background?
     with JoystickController('/dev/input/js1') as controller:
         while True:
             try:
